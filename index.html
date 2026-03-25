@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AprendeOnline</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Aprende Online</h1>
+            <p id="description">Plataforma para aprender desde casa de manera sencilla y práctica</p>
+        </header>
+
+        <nav>
+            <a href="#hero">Inicio</a>
+            <a href="#courses">Cursos</a>
+            <a href="#testimonials">Testimonios</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+
+        <main id="main">
+            <!--Hero-->
+            <section id="hero">
+                <h2>Aprende nuevas habilidades desde casa</h2>
+                <p>Accede a cursos de programación, diseño, marketing y más. Aprende a tu ritmo con instructores expertos.</p>
+                <a href="#courses" class="btn">Ver cursos</a>
+            </section>
+
+            <!--Cursos-->
+            <section id="courses">
+                <h2>Cursos disponibles</h2>
+                <ul>
+                    <li>
+                        <strong>Curso de HTML y CSS:</strong> Aprende a crear páginas web desde cero con buenas prácticas y diseño moderno.
+                    </li>
+                    <li>
+                        <strong>Curso de JavaScript:</strong> Domina la lógica de programación y añade interactividad a tus sitios web.
+                    </li>
+                    <li>
+                        <strong>Curso de Diseño UX/UI:</strong> Aprende a crear interfaces atractivas y usables para tus proyectos digitales.
+                    </li>
+                </ul>
+            </section>
+            
+            <!--Testimonios-->
+            <section id="testimonials">
+                <h2>Lo que dicen nuestros alumnos</h2>
+                <div class="chat">
+                    <div class="mensaje">
+                        <img src="ana.jpg" alt="Ana">
+                        <div class="burbuja">
+                            <p>"Gracias a AprendeOnline ahora trabajo como desarrolladora."</p>
+                            <span class="autor">-Ana</span>
+                        </div>
+                    </div>
+
+                    <div class="mensaje">
+                        <img src="carlos.jpg" alt="Carlos">
+                        <div class="burbuja">
+                            <p>"Los cursos son claros, prácticos y fáciles de seguir."</p>
+                            <span class="autor">-Carlos</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--FAQ-->
+            <section id="faq">
+                <h2>Preguntas frecuentes</h2>
+                <details class="faq-item">
+                    <summary class="faq-question">¿Necesito experiencia previa?</summary>
+                    <div class="faq-answer">
+                         No, nuestros cursos están diseñados para todos los niveles.
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">¿Puedo estudiar a mi ritmo?</summary>
+                    <div class="faq-answer">
+                       Sí, todos los cursos son 100% online y flexibles. 
+                    </div>
+                </details>
+            </section>
+
+            <!--Contacto-->
+            <section id="contact">
+                <h2 class="contact">Contáctanos</h2>
+                <form class="formulario">
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Tu nombre" id="name" name="name" required/>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Tu email" id="email" name="email" required/>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 AprendeOnline</p>
+            <nav>
+                <a href="#privacy">Privacidad</a>
+                <a href="#terms">Términos</a>
+            </nav>
+        </footer>
+        
+    </body>
+</html>
