@@ -21,7 +21,7 @@ Proyecto de práctica creado con HTML y CSS.
 ## 📂 Estructura del proyecto
 
 - index.html
-- styles.css
+- style.css
 
 ## ✍️ Autor
 
